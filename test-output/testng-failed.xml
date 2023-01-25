@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FrameworkSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FrameworkTests(failed)">
+    <classes>
+      <class name="com.Testcases.ContactsPageTest">
+        <methods>
+          <include name="selectContacts"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLabel"/>
+        </methods>
+      </class> <!-- com.Testcases.ContactsPageTest -->
+      <class name="com.Testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="logotest"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.Testcases.LoginPageTest -->
+      <class name="com.Testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="clickContactsBtn"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Testcases.HomePageTest -->
+    </classes>
+  </test> <!-- FrameworkTests(failed) -->
+</suite> <!-- Failed suite [FrameworkSuite] -->

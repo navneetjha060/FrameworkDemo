@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FrameworkSuite">
+  <test thread-count="5" name="FrameworkTests">
+    <classes>
+      <class name="com.Testcases.ContactsPageTest"/>
+      <class name="com.Testcases.HomePageTest"/>
+      <class name="com.Testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- FrameworkTests -->
+</suite> <!-- FrameworkSuite -->
